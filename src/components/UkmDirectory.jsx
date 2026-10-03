@@ -68,13 +68,7 @@ const UKM_DATA = [
   },
 ];
 
-const CATEGORIES = [
-  "Semua",
-  "Teknologi",
-  "Kreatif",
-  "Olahraga",
-  "Kewirausahaan",
-];
+const CATEGORIES = ["Semua", "Teknologi", "Kreatif", "Kewirausahaan"];
 
 const sectionVariants = {
   hidden: { opacity: 0 },

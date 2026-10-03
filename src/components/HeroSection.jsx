@@ -256,7 +256,12 @@ const HeroSection = () => {
                   variants={fadeInUp}
                   className="relative col-span-1 lg:absolute lg:top-0 lg:left-0 lg:z-20 lg:w-[48%] xl:w-[46%]"
                 >
-                  <div className="group relative cursor-pointer overflow-hidden rounded-t-[3.5rem] rounded-b-xl bg-white shadow-lg shadow-prussian-blue/10 ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-prussian-blue/30 sm:rounded-t-[4.5rem] sm:rounded-b-2xl lg:rounded-t-[5rem]">
+                  <a
+                    href={IMAGES[0].src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative block cursor-pointer overflow-hidden rounded-t-[3.5rem] rounded-b-xl bg-white shadow-lg shadow-prussian-blue/10 ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-prussian-blue/30 sm:rounded-t-[4.5rem] sm:rounded-b-2xl lg:rounded-t-[5rem]"
+                  >
                     <img
                       src={IMAGES[0].src}
                       alt={IMAGES[0].alt}
@@ -264,14 +269,19 @@ const HeroSection = () => {
                       loading="eager"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-prussian-blue/50 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                  </div>
+                  </a>
                 </motion.div>
 
                 <motion.div
                   variants={fadeInUp}
                   className="relative col-span-1 row-span-2 h-full min-h-0 lg:absolute lg:top-8 xl:top-10 lg:right-0 lg:z-30 lg:w-[45%] xl:w-[44%] lg:h-auto"
                 >
-                  <div className="group relative h-full w-full cursor-pointer overflow-hidden rounded-tr-[3rem] rounded-bl-[3rem] rounded-tl-xl rounded-br-xl bg-white shadow-xl shadow-prussian-blue/15 ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-twilight-indigo/40 sm:rounded-tr-[3.5rem] sm:rounded-bl-[3.5rem] lg:rounded-tr-[4rem] lg:rounded-bl-[4rem]">
+                  <a
+                    href={IMAGES[1].src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative block h-full w-full cursor-pointer overflow-hidden rounded-tr-[3rem] rounded-bl-[3rem] rounded-tl-xl rounded-br-xl bg-white shadow-xl shadow-prussian-blue/15 ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-twilight-indigo/40 sm:rounded-tr-[3.5rem] sm:rounded-bl-[3.5rem] lg:rounded-tr-[4rem] lg:rounded-bl-[4rem]"
+                  >
                     <img
                       src={IMAGES[1].src}
                       alt={IMAGES[1].alt}
@@ -279,13 +289,18 @@ const HeroSection = () => {
                       loading="eager"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-twilight-indigo/50 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                  </div>
+                  </a>
                 </motion.div>
                 <motion.div
                   variants={fadeInUp}
                   className="relative col-span-1 lg:absolute lg:bottom-2 lg:left-[6%] lg:z-20 lg:w-[46%] xl:w-[45%]"
                 >
-                  <div className="group relative cursor-pointer overflow-hidden rounded-tl-[2.5rem] rounded-br-[2.5rem] rounded-tr-lg rounded-bl-lg bg-white shadow-lg shadow-prussian-blue/10 ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-prussian-blue/30 sm:rounded-tl-[3rem] sm:rounded-br-[3rem] lg:rounded-tl-[3.5rem] lg:rounded-br-[3.5rem]">
+                  <a
+                    href={IMAGES[2].src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative block cursor-pointer overflow-hidden rounded-tl-[2.5rem] rounded-br-[2.5rem] rounded-tr-lg rounded-bl-lg bg-white shadow-lg shadow-prussian-blue/10 ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-prussian-blue/30 sm:rounded-tl-[3rem] sm:rounded-br-[3rem] lg:rounded-tl-[3.5rem] lg:rounded-br-[3.5rem]"
+                  >
                     <img
                       src={IMAGES[2].src}
                       alt={IMAGES[2].alt}
@@ -293,7 +308,7 @@ const HeroSection = () => {
                       loading="eager"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-prussian-blue-2/60 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                  </div>
+                  </a>
                 </motion.div>
               </div>
             </div>
