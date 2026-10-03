@@ -186,15 +186,24 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* ── Garis Bawah & Hak Cipta ── */}
-        <div className="mt-16 flex w-full flex-col items-center justify-center border-t border-white-smoke/10 pt-8 sm:mt-24">
-          <div className="flex flex-col text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.15em] text-white-smoke/60 sm:text-sm">
+        {/* ── Area Bawah: Hak Cipta & Kredit Atribusi ── */}
+        <div className="mt-16 flex flex-col gap-6 border-t border-white-smoke/10 pt-8 text-[11px] leading-relaxed text-white-smoke/50 md:flex-row md:items-start md:justify-between sm:mt-20">
+          {/* Sisi Kiri: Hak Cipta & Info Desain */}
+          <div className="flex flex-col shrink-0 text-left">
+            <span className="font-semibold uppercase tracking-[0.1em] text-white-smoke/60">
               Desain &amp; Pengembangan UI/UX
             </span>
-            <span className="mt-1.5 text-[10px] font-medium uppercase tracking-[0.1em] text-white-smoke/40 sm:text-xs">
+            <span className="mt-1 text-white-smoke/40">
               Hak Cipta &copy; {currentYear} Muhammad Daud Sutanssyah.
             </span>
+          </div>
+
+          {/* Sisi Kanan: Kredit & Atribusi Media (Inline) */}
+          <div className="max-w-2xl text-left md:text-right">
+            <p>
+              <strong className="font-semibold text-white-smoke/60">Kredit &amp; Atribusi:</strong>{" "}
+              Seluruh aset media yang digunakan bebas hak cipta. Ikonografi: React Icons (FontAwesome &amp; Heroicons). Animasi: Framer Motion. Aset Visual: AI (Google Gemini). Logo &amp; Merek Dagang: Hak Milik Universitas Siber Muhammadiyah.
+            </p>
           </div>
         </div>
       </div>
